@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: "Open Sans", "Trebuchet MS", arial, verdana, sans-serif;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    grid-template-areas:
+        "a b"
+        "c d";
+}
+
+.carla {
+  grid-area: a;
+  width: 340px;
+  height: 230px;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+  padding: 50px;
+  margin: 20px;
+}
+
+.name {
+    margin-left: -1cm;
+    margin-top: -1cm;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.title {
+    margin-top: -0.5cm;
+    margin-left: -1cm;
+    font-weight:100;
+    color:grey
+}
+
+.status {
+    margin-left: -1cm;
+}
+
+.carla img {
+    align-items: right;
+    width: 50px;
+    height: auto;
+    margin-left: 6cm;
+    margin-top: -1cm;
+}
+
+.approve {
+    border: 1px solid green;
+    width: 150px;
+    height: 40px;
+    margin-left: -1cm;
+    border-radius: 5%;
+    text-align: center;
+    color:green;
+}
+
+.decline {
+    border: 1px solid red;
+    color:red;
+    width: 150px;
+    height: 40px;
+    margin-top: -1.06cm;
+    margin-left: 2.9cm;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.yes {
+    margin-top: 0.2cm;
+}
+
+.no {
+    margin-top: 0.2cm;
+}
+
+.marijn {
+    width: 340px;
+    height: 230px;
+    border: 1px solid lightgrey;
+    border-radius: 2%;
+    padding: 50px;
+    margin: 20px;
+    margin-left: -7.5cm;
+    margin-top: cm;;
+    
+  }
+
+  span {
+      font-weight: bold;
+  }
+
+  .marijn img {
+    
+    width: 50px;
+    height: auto;
+    margin-left: 6cm;
+    margin-top: -1cm;
+}
